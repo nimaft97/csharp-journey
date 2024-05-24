@@ -34,5 +34,5 @@ namespace CardPickerWPF
                 listOfCards.Items.Add(card);
             }
         }
-    }
+    } 
 }
