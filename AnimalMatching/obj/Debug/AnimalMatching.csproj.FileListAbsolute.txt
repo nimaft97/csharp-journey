@@ -1,0 +1,16 @@
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\bin\Debug\AnimalMatching.exe.config
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\bin\Debug\AnimalMatching.exe
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\bin\Debug\AnimalMatching.pdb
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\AnimalMatching.csproj.AssemblyReference.cache
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\AnimalMatching.csproj.SuggestedBindingRedirects.cache
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\MainWindow.g.cs
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\App.g.cs
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\AnimalMatching_MarkupCompile.cache
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\AnimalMatching_MarkupCompile.lref
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\MainWindow.baml
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\AnimalMatching.g.resources
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\AnimalMatching.Properties.Resources.resources
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\AnimalMatching.csproj.GenerateResource.cache
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\AnimalMatching.csproj.CoreCompileInputs.cache
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\AnimalMatching.exe
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\AnimalMatching\AnimalMatching\obj\Debug\AnimalMatching.pdb
