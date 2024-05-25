@@ -19,3 +19,4 @@ C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\BeehiveManagementSystem\BeehiveMa
 C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\BeehiveManagementSystem\BeehiveManagementSystem\obj\Debug\net6.0-windows\BeehiveManagementSystem.pdb
 C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\BeehiveManagementSystem\BeehiveManagementSystem\obj\Debug\net6.0-windows\BeehiveManagementSystem.genruntimeconfig.cache
 C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\BeehiveManagementSystem\BeehiveManagementSystem\obj\Debug\net6.0-windows\ref\BeehiveManagementSystem.dll
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\BeehiveManagementSystem\BeehiveManagementSystem\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
