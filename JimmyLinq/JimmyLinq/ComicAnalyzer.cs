@@ -7,19 +7,19 @@ using System.Threading.Tasks;
 
 namespace JimmyLinq
 {
-    enum Critics
+    public enum Critics
     {
         MuddyCritic,
         RottenTornadoes
     };
 
-    enum PriceRange
+    public enum PriceRange
     {
         Cheap,
         Expensive
     };
 
-    class Comic
+    public class Comic
     {
         public string Name { get; set; }
         public int Issue { get; set; }
@@ -53,14 +53,14 @@ namespace JimmyLinq
             };
     };
 
-    class Review
+    public class Review
     {
         public int Issue;
         public Critics Critic;
         public double Score;
     };
 
-    static class ComicAnalyzer
+    public static class ComicAnalyzer
     {
         public static IEnumerable<Review> Reviews = new[] {
                                     new Review() { Issue = 36, Critic = Critics.MuddyCritic, Score = 37.6 },
