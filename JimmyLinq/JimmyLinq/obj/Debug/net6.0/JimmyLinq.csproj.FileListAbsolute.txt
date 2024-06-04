@@ -1,0 +1,15 @@
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\obj\Debug\net6.0\JimmyLinq.csproj.AssemblyReference.cache
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\obj\Debug\net6.0\JimmyLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\obj\Debug\net6.0\JimmyLinq.AssemblyInfoInputs.cache
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\obj\Debug\net6.0\JimmyLinq.AssemblyInfo.cs
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\obj\Debug\net6.0\JimmyLinq.csproj.CoreCompileInputs.cache
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\bin\Debug\net6.0\JimmyLinq.exe
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\bin\Debug\net6.0\JimmyLinq.deps.json
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\bin\Debug\net6.0\JimmyLinq.runtimeconfig.json
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\bin\Debug\net6.0\JimmyLinq.dll
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\bin\Debug\net6.0\JimmyLinq.pdb
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\obj\Debug\net6.0\JimmyLinq.dll
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\obj\Debug\net6.0\refint\JimmyLinq.dll
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\obj\Debug\net6.0\JimmyLinq.pdb
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\obj\Debug\net6.0\JimmyLinq.genruntimeconfig.cache
+C:\Users\nimaf\OneDrive\Desktop\IE\Projects\C#\JimmyLinq\JimmyLinq\obj\Debug\net6.0\ref\JimmyLinq.dll
