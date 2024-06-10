@@ -51,55 +51,50 @@ namespace JimmyLinq
                                     { 83, 25.75M },
                                     { 97, 35.25M },
             };
-    };
+
+        public static readonly IEnumerable<Review> Reviews = new[] {
+            new Review() { Issue = 36, Critic = Critics.MuddyCritic, Score = 37.6 },
+            new Review() { Issue = 74, Critic = Critics.RottenTornadoes, Score = 22.8 },
+            new Review() { Issue = 74, Critic = Critics.MuddyCritic, Score = 84.2 },
+            new Review() { Issue = 83, Critic = Critics.RottenTornadoes, Score = 89.4 },
+            new Review() { Issue = 97, Critic = Critics.MuddyCritic, Score = 98.1 },
+         };
+    }
 
     public class Review
     {
-        public int Issue;
-        public Critics Critic;
-        public double Score;
-    };
-
+        public int Issue { get; set; }
+        public Critics Critic { get; set; }
+        public double Score { get; set; }
+    }
     public static class ComicAnalyzer
     {
-        public static IEnumerable<Review> Reviews = new[] {
-                                    new Review() { Issue = 36, Critic = Critics.MuddyCritic, Score = 37.6 },
-                                    new Review() { Issue = 74, Critic = Critics.RottenTornadoes, Score = 22.8 },
-                                    new Review() { Issue = 74, Critic = Critics.MuddyCritic, Score = 84.2 },
-                                    new Review() { Issue = 83, Critic = Critics.RottenTornadoes, Score = 89.4 },
-                                    new Review() { Issue = 97, Critic = Critics.MuddyCritic, Score = 98.1 },
-        };
-
-        private static PriceRange CalculatePriceRange(Comic comic)
+        private static PriceRange CalculatePriceRange(Comic comic, IReadOnlyDictionary<int, decimal> prices)
         {
-            bool cheap = Comic.Prices[comic.Issue] < 100M;
-            if (cheap)
-            {
+            if (prices[comic.Issue] < 100)
                 return PriceRange.Cheap;
-            }
-            return PriceRange.Expensive;
+            else
+                return PriceRange.Expensive;
         }
-
-        public static IEnumerable<IGrouping<PriceRange, Comic>> GroupComicsByPrice(IEnumerable<Comic> Catalog, 
-                                                                            IReadOnlyDictionary<int, decimal> Prices)
+        public static IEnumerable<IGrouping<PriceRange, Comic>> GroupComicsByPrice(
+        IEnumerable<Comic> comics, IReadOnlyDictionary<int, decimal> prices)
         {
-            var result = 
-                from comic in Catalog
-                orderby Comic.Prices[comic.Issue] ascending
-                group comic by CalculatePriceRange(comic) into comicGroup
-                select comicGroup;
-            return result;
+            IEnumerable<IGrouping<PriceRange, Comic>> grouped =
+            from comic in comics
+            orderby prices[comic.Issue]
+            group comic by CalculatePriceRange(comic, prices) into priceGroup
+            select priceGroup;
+            return grouped;
         }
-
-        public static IEnumerable<String> GetReviews(IEnumerable<Comic> Catalog, IEnumerable<Review> Reviews)
+        public static IEnumerable<string> GetReviews(
+        IEnumerable<Comic> comics, IEnumerable<Review> reviews)
         {
-            var result =
-                from comic in Catalog
-                orderby comic.Issue ascending
-                join review in Reviews
-                on comic.Issue equals review.Issue
-                select $"{review.Critic} rated #{review.Issue} '{comic.Name}' {review.Score:0.00}";
-            return result;
+            var joined =
+            from comic in comics
+            orderby comic.Issue
+            join review in reviews on comic.Issue equals review.Issue
+            select $"{review.Critic} rated #{comic.Issue} '{comic.Name}' {review.Score:0.00}";
+            return joined;
         }
-    };
+    }
 }

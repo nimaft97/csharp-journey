@@ -1,11 +1,8 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
 namespace JimmyLinqUnitTests
 {
     using JimmyLinq;
     using System.Collections.Generic;
     using System.Linq;
-
     [TestClass]
     public class ComicAnalyzerTests
     {
@@ -15,7 +12,6 @@ namespace JimmyLinqUnitTests
             new Comic() { Issue = 2, Name = "Issue 2"},
             new Comic() { Issue = 3, Name = "Issue 3"},
         };
-
         [TestMethod]
         public void ComicAnalyzer_Should_Group_Comics()
         {
@@ -25,9 +21,7 @@ namespace JimmyLinqUnitTests
                 { 2, 10M },
                 { 3, 1000M },
             };
-
             var groups = ComicAnalyzer.GroupComicsByPrice(testComics, prices);
-
             Assert.AreEqual(2, groups.Count());
             Assert.AreEqual(PriceRange.Cheap, groups.First().Key);
             Assert.AreEqual(2, groups.First().First().Issue);

@@ -33,7 +33,7 @@ bool GroupComicsByPrice()
 }
 bool GetReviews()
 {
-    var reviews = ComicAnalyzer.GetReviews(Comic.Catalog, ComicAnalyzer.Reviews);
+    var reviews = ComicAnalyzer.GetReviews(Comic.Catalog, Comic.Reviews);
     foreach (var review in reviews)
         Console.WriteLine(review);
     return false;
